@@ -198,3 +198,37 @@ Both PPDG-3R and PP-OPO can be filed through the **ePorezi portal** (eporezi.pur
 **IB reports location:** Client Portal → Performance & Reports → Statements (Activity Statements), Tax Documents (1042-S, Dividend Report, Tax Optimizer).
 
 **Key uncertainties flagged:** The applicability of Article 12's unilateral foreign tax credit without a DTT is the prevailing professional interpretation but has seen inconsistent treatment by some tax inspectors. For portfolios generating significant dividend income, retain Form 1042-S as proof. NBS foreign account regulations are technically binding but enforcement against retail investors has been minimal — this may change as Serbia moves toward EU accession and full CRS implementation.
+
+---
+
+## Dodatak: Originalni tekst na srpskom
+
+Ovaj vodič je zasnovan na sledećim savetima iz srpske investitorske zajednice. Tekst je dat u izvornom ili približno izvornom obliku.
+
+### Prijava poreza kad trguješ preko IBKR-a
+
+Prijava ako trguješ preko IBKR: dostavljaš trade confirmation i kupovine i prodaje, obavezno da se vidi ime, datum, adresa. Može da se namesti custom template.
+
+Apsolutno nema ništa od teksta tako da nema nikakve potrebe za prevođenjem a apsolutno ne za sudskim tumačem, samo minimum podataka stavite da se vidi ali obavezno sve što treba.
+
+E sad mi kupujemo u evrima ili dolarima, ali valute se kreću, moramo da prijavimo u dinarima. Moguće je da ostvariš zaradu nominalno ali da je valuta toliko pala da si na nuli ili u minusu.
+
+### Inflacija i nabavna cena
+
+Odobrava se uvećanje nabavne cene uvećano za godišnju inflaciju u Srbiji. Pročitaj rečenicu ponovo.
+
+Kupiš akcije za 1000 evra — prodaš za 2000 evra godinu dana kasnije. Zarada 1000 evra. ALI INFLACIJA U SRBIJI JE 10% ZA GODINU DANA. Uvećava se nabavna cena za 10%. Kao da si kupio za 1100. Znači manja zarada, znači manji porez.
+
+"Odakle ja znam da računam inflaciju, mrzi me, pogrešiću, bla bla" — Ne računaš ništa, verovali ili ne, poreska uprava sama to uradi.
+
+Ja sam u istom rešenju koristio i kapitalni gubitak koji sam realizovao zbog velike inflacije od 2020–2022. i isti dan sam to što sam prodao, da bih realizovao gubitak, kupio drugi sličan fond.
+
+Mislim da je ovo apsolutno najkraće što sam mogao i najjednostavnije. Molim vas da smanjimo paniku po finansijama oko poreza i kako ne prihvataju ništa i kako je komplikovano sve… i molim vas, nemojte da padate na priču "idem kod našeg brokera da me dere ali daje mi izveštaje na srpskom." 1. Vi ne trgujete toliko da je to bitno 2. Nema potrebe.
+
+### Dodatna tri saveta
+
+Ukoliko se neke akcije drže 10 ili više godina, porez se prijavljuje, ali je 0%.
+
+Ukoliko se 1.1.2025. kupilo 10 akcija, 2.1.2025. kupilo 20 akcija, i onda 3.1.2025. sve prodalo (30 akcija) — moraju da se naprave dve prijave. Prva je: "Kupio sam 10 akcija 1.1.2025, prodao sam tih 10 3.1.2025." Druga je: "Kupio sam 20 akcija 2.1.2025, prodao sam tih 20 3.1.2025." Odnosno, prvo moraju da se prodaju najstarije akcije. Razlog za ovo je baš u prvoj stavci iznad. Odnosno ne možeš da kažeš "prodao sam akcije koje sam kupio najskorije a ove koje su starije ću prodati za 10 god i neću platiti porez."
+
+Ukoliko se jednom u 6 meseci za koje se prijavljuje porez prodala količina akcija sa decimalnim zarezom (npr 1.2), ne može da se prijavljuje preko sajta. Ja sam probao više puta i samo me sajt iskulira i umesto broja koji sam uneo on stavi 0. Probao sam i sa "." i sa ",", ništa. Zvao sam ih u BG dva puta i oba puta sam dobio odgovor da mora onda da se preda lično ukoliko nije ceo broj. Na kraju se ispostavilo da ni ovo nije toliko kompleksno, samo sam skinuo formular u PDF formatu koji ima ista polja sa istim brojevima polja kao ovaj na sajtu. Zatim sam ga ručno popunio u PDF formatu, odštampao i predao za 60 sekundi ženi na šalteru a ona mi je dala neki papirić sa brojem predmeta i rekla "u nekom momentu će te neko kontaktirati."
