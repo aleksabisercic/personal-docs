@@ -1,6 +1,8 @@
 # Personal Knowledge Wiki
 
-Obsidian vault + LLM-friendly knowledge base. Every note has YAML frontmatter for fast retrieval. Published to web via Quartz.
+Obsidian vault + LLM-friendly knowledge base. Every note has YAML frontmatter for fast retrieval. Published to web via Quartz (cloned at build time — not checked into this repo).
+
+**Live site**: `aleksabisercic.github.io/personal-docs`
 
 ## Structure
 
@@ -9,6 +11,7 @@ Obsidian vault + LLM-friendly knowledge base. Every note has YAML frontmatter fo
 ├── finance/           # Tax, investing, brokerage topics
 ├── learning-notes/    # Mental models, frameworks, study notes
 ├── _templates/        # Note templates (Obsidian Templater compatible)
+├── private/           # Unpublished notes (gitignored from build via ignorePatterns)
 ├── index.md           # Master Map of Content — link every note here
 ├── quartz.config.ts   # Quartz site config (title, theme, plugins, baseUrl)
 ├── quartz.layout.ts   # Quartz page layout (sidebar, graph, TOC, backlinks)
@@ -21,6 +24,7 @@ Obsidian vault + LLM-friendly knowledge base. Every note has YAML frontmatter fo
 - **Wikilinks**: Use `[[note-name]]` for internal cross-references. Link generously.
 - **File naming**: Lowercase kebab-case (`ibkr-serbian-tax-guide.md`), no spaces.
 - **Atomic notes**: One concept per note. Long reference guides are acceptable.
+- **Category**: The `category` frontmatter value must match the parent folder name (e.g. `category: finance` for notes in `finance/`).
 - **Language**: English or Serbian. The `language` frontmatter field indicates which.
 - **Summaries**: Keep the `summary` field to one information-dense sentence. This is the primary field LLMs use for retrieval.
 
