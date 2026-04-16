@@ -1,5 +1,7 @@
 # personal-docs
 
+**Live site:** https://aleksabisercic.github.io/personal-docs
+
 A personal knowledge wiki stored as plain markdown. Designed to work as:
 
 1. **An Obsidian vault** — open this repo in Obsidian for graph view, wikilinks, search, and Dataview queries.
