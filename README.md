@@ -17,10 +17,19 @@ git clone <this-repo>
 
 ## Structure
 
-| Folder | Purpose |
-|--------|---------|
+| Path | Purpose |
+|------|---------|
 | `finance/` | Tax, investing, brokerage |
 | `learning-notes/` | Mental models, frameworks, study notes |
+| `private/` | Unpublished notes (excluded from site build) |
 | `_templates/` | Note templates (Obsidian Templater compatible) |
 | `index.md` | Master Map of Content |
+| `quartz.config.ts` | Site config: title, theme, plugins, base URL |
+| `quartz.layout.ts` | Page layout: sidebar, graph, TOC, backlinks |
 | `CLAUDE.md` | LLM context and conventions |
+
+## Deployment
+
+Push to `main` → GitHub Actions clones [Quartz](https://github.com/jackyzha0/quartz), copies content + config, builds static HTML, and deploys to GitHub Pages. Quartz is not checked into this repo.
+
+To change site theme, plugins, or layout, edit `quartz.config.ts` and `quartz.layout.ts` here — they're overlaid onto Quartz at build time.
