@@ -1,0 +1,74 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout content
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Clone Quartz
+        run: git clone --depth 1 https://github.com/jackyzha0/quartz.git quartz-build
+
+      - name: Install Quartz dependencies
+        run: cd quartz-build && npm ci
+
+      - name: Copy content into Quartz
+        run: |
+          rm -rf quartz-build/content/*
+          # Copy all wiki content, excluding repo meta-files and build config
+          rsync -a \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='_templates' \
+            --exclude='CLAUDE.md' \
+            --exclude='README.md' \
+            --exclude='quartz.config.ts' \
+            --exclude='quartz.layout.ts' \
+            --exclude='.gitignore' \
+            ./ quartz-build/content/
+
+      - name: Apply Quartz config
+        run: |
+          cp quartz.config.ts quartz-build/quartz.config.ts
+          cp quartz.layout.ts quartz-build/quartz.layout.ts
+
+      - name: Build site
+        run: cd quartz-build && npx quartz build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: quartz-build/public
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
