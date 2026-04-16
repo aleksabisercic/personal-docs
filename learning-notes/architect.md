@@ -1,3 +1,14 @@
+---
+tags:
+  - mental-models
+  - architecture
+  - decision-making
+category: learning-notes
+created: 2025-01-01
+language: en
+summary: Three core questions a senior architect asks for every decision — simplicity, cost of change, and blast radius.
+---
+
 # Architect Notes
 
 ## The Mental Model
