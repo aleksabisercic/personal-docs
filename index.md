@@ -17,3 +17,8 @@ summary: Master index linking to all topics in this knowledge base.
 ## Learning Notes
 
 - [[architect]] — Three questions a senior architect asks for every decision: simplicity, cost of change, blast radius.
+
+## Consulting
+
+- [[playbooking-method]] — Rachel Woods' four-component framework (trigger, inputs, steps, outputs) for turning recurring client/business work into AI-runnable playbooks.
+- [[business-streamlining-playbooks]] — Catalog of playbook candidates for streamlining an AI consulting practice (inbox, campaigns, sales, client coaching, project planning).
