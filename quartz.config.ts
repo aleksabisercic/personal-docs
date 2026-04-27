@@ -10,7 +10,7 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "en-US",
     baseUrl: "aleksabisercic.github.io/personal-docs",
-    ignorePatterns: ["private", "_templates", ".obsidian"],
+    ignorePatterns: ["private", "_templates", ".obsidian", "quartz-build"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
