@@ -47,6 +47,7 @@ jobs:
             --exclude='quartz.config.ts' \
             --exclude='quartz.layout.ts' \
             --exclude='.gitignore' \
+            --exclude='quartz-build' \
             ./ quartz-build/content/
 
       - name: Apply Quartz config
