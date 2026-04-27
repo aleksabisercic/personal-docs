@@ -22,3 +22,4 @@ summary: Master index linking to all topics in this knowledge base.
 
 - [[playbooking-method]] — Rachel Woods' four-component framework (trigger, inputs, steps, outputs) for turning recurring client/business work into AI-runnable playbooks.
 - [[business-streamlining-playbooks]] — Catalog of playbook candidates for streamlining an AI consulting practice (inbox, campaigns, sales, client coaching, project planning).
+- [[project-planning-playbook]] — Full breakdown of Rachel's keystone playbook: takes a project description, clarifies, brainstorms, picks an approach, plans tasks, then starts executing.
