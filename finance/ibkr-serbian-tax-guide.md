@@ -16,6 +16,8 @@ summary: Complete guide for Serbian tax residents investing in US stocks via Int
 
 # Serbian Tax Guide for US Stock Investments via Interactive Brokers
 
+> **Note**: this guide covers the **broker-reported semi-annual** capital-gains scheme for exchange-traded securities. For private foreign **company-interest sales** (e.g., a Delaware LLC redemption), the filing window is **30 days from realization** — not semi-annual. See `private/dandilion-settlement-tax-filing-plan.md` for that case.
+
 **A Serbian tax resident holding US stocks through Interactive Brokers owes 15% on capital gains and 15% on dividends — but the absence of a US-Serbia tax treaty means 30% US withholding on dividends, half of which is effectively lost.** This creates a total dividend tax burden of 30% (all paid to the US, with Serbia zeroed out by credit) and a straightforward 15% on capital gains (untaxed by the US). Capital gains are filed semi-annually on form PPDG-3R; dividends are filed within 30 days of receipt on form PP-OPO. The single most powerful optimization available is the **10-year holding exemption** — securities held for a decade are completely tax-free on sale (you still file, but tax is 0%). This guide covers every obligation, form, deadline, and Interactive Brokers report needed to stay compliant, based on the Zakon o porezu na dohodak građana (Law on Personal Income Tax) as amended through early 2026.
 
 ---
