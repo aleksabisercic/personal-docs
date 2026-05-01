@@ -9,20 +9,21 @@ tags:
 category: private
 created: 2026-05-01
 language: en
-summary: Action plan for filing Serbian 15% capital-gains tax (PPDG-3R) on the £46,000 Dandilion LLC redemption settlement — covers timing, basis, FX, NBS routing, and U.S. §864(c)(8)/§1446(f) exposure.
+summary: Action plan for filing Serbian 15% capital-gains tax (PPDG-3R) on the ~£18,000 capital-gains portion of the £46,000 Dandilion LLC redemption settlement — covers timing, basis, FX, NBS routing, and U.S. §864(c)(8)/§1446(f) exposure.
 ---
 
 # Dandilion Settlement — Capital Gains Tax Filing Plan
 
-This note is the operating plan for paying capital-gains tax on the **£46,000 Settlement Amount** received in exchange for redeeming 96 Units of Dandilion LLC. The consultancy (paušalac) side is not in scope here — that has its own filings.
+This note is the operating plan for paying capital-gains tax on the **redemption portion** of the £46,000 Settlement Amount received from Dandilion LLC. **Per the user's correction, only ~£18,000 of the £46,000 is allocable to the redemption of 96 Units** (i.e., the capital-gains piece). The remaining ~£28,000 is a separate component (severance / termination compensation / other) with a different tax classification — see [§1a](#1a-allocation-of-the-46000-only-18000-is-capital-gains).
 
 > **TL;DR — what you owe and when**
 >
-> - **Tax**: Serbian 15% capital-gains tax on the redemption gain. With a near-zero cost basis (the conservative, defensible position), the bill is roughly **£6,900 / ~RSD 970,000** at current FX.
+> - **Tax (capital-gains slice only)**: Serbian 15% capital-gains tax on the **~£18,000** redemption portion. With a near-zero cost basis (the conservative, defensible position), the bill is roughly **£2,700 / ~RSD 380,000** at current FX (~140 GBP/RSD).
 > - **Form**: **PPDG-3R**, filed via [ePorezi](https://eporezi.purs.gov.rs).
-> - **Deadline**: **Within 30 days of the Closing date** (the date the 96 Units irrevocably transfer to the Company), reporting the **full £46,000 nominal sale price** in RSD at the NBS middle rate on Closing day. Do NOT wait for the semi-annual stock-account window (that scheme does not apply here).
-> - **Single critical decision**: cost basis = 0 (recommended) vs. cost basis = FMV-at-grant (requires amending 2024 filings, usually doesn't pay off). See [§4](#4-the-cost-basis-decision-the-money-question).
-> - **Two flags requiring outside advisors before Closing**: U.S. §864(c)(8) ECI/§1446(f) exposure on the LLC side, and Serbian tax treatment of the LLC→Corp conversion of the 95 retained Units.
+> - **Deadline**: **Within 30 days of the Closing date** (the date the 96 Units irrevocably transfer to the Company), reporting the **~£18,000 redemption portion** in RSD at the NBS middle rate on Closing day. Do NOT wait for the semi-annual stock-account window (that scheme does not apply here).
+> - **The other ~£28,000 is NOT covered by this note's PPDG-3R filing.** Likely classification: "drugi prihodi" (ZPDG Article 85, ~16% effective) or severance/termination compensation — needs its own filing on **PP-OPO** with its own deadline. Open question — see [§1a](#1a-allocation-of-the-46000-only-18000-is-capital-gains).
+> - **Single critical decision (capital-gains slice)**: cost basis = 0 (recommended) vs. cost basis = FMV-at-grant (requires amending 2024 filings, usually doesn't pay off). See [§4](#4-the-cost-basis-decision-the-money-question).
+> - **Three flags requiring outside advisors before Closing**: (i) the £18k/£28k allocation needs documented support, (ii) U.S. §864(c)(8) ECI/§1446(f) exposure on the LLC side, (iii) Serbian tax treatment of the LLC→Corp conversion of the 95 retained Units.
 
 ---
 
@@ -35,12 +36,44 @@ This note is the operating plan for paying capital-gains tax on the **£46,000 S
 | Original holding | 191 Units = 21.75% (acquired at LLC formation, **9 Oct 2024**) |
 | Redeemed Interest | 96 Units = 50% of holdings = ~10.875% of company |
 | Retained after Closing | 95 Units (convert to Corp shares) |
-| Settlement Amount | **£46,000** (consideration for the 96 redeemed Units) |
+| Settlement Amount (total) | **£46,000** (paid as consideration in the Agreement) |
+| — Capital-gains portion (96-unit redemption) | **~£18,000** (per user's allocation) |
+| — Other portion (severance / termination compensation) | **~£28,000** (separate tax classification — see §1a) |
 | Payment Plan | 20 × £2,200 + 1 × £2,000, monthly, first installment **1 April 2026** |
-| Consultancy termination | 31 January 2026 (separate from the redemption — already handled as paušalac revenue) |
+| Consultancy termination | 31 January 2026 |
 | Tax clause | §9.01 — Member solely responsible for all U.S./state/international taxes |
 
-The redemption (capital event) and the terminated consultancy (income event) are legally and tax-wise separate. This plan covers only the redemption.
+This plan covers **only the ~£18,000 capital-gains portion**. The ~£28,000 non-redemption portion needs its own filing on a different form — see §1a.
+
+---
+
+## 1a. Allocation of the £46,000 — only £18,000 is capital gains
+
+The Settlement Agreement legally bundles £46,000 as consideration for the redemption of 96 Units (§II.01 + §IV.01). But the economic substance is split:
+
+| Slice | Amount | Likely Serbian tax classification | Form | Rate |
+|---|---|---|---|---|
+| Redemption price for 96 Units | **~£18,000** | Kapitalni dobitak (ZPDG Articles 72–80) | PPDG-3R | 15% |
+| Termination / severance / other | **~£28,000** | Most likely "drugi prihodi" (ZPDG Article 85) — or possibly recharacterized as services revenue tied to the terminated consultancy | PP-OPO (or potentially flowing through paušalac) | ~16% effective (drugi prihodi) — or per paušalac mechanics |
+
+**Why this allocation matters:**
+
+- The PU does not see the £18k/£28k split in the Settlement Agreement itself — they see "Settlement Amount £46,000 in consideration for the Redeemed Interest". To defend the allocation under audit, you need **contemporaneous documentation** supporting the split: an internal computation memo, a side letter, board minutes, or the negotiation history showing that £18k tracked the FMV of the 96 Units and £28k was severance.
+- Without contemporaneous support, the PU's default is to treat the entire £46k as redemption consideration (capital gain). That would actually be the *cheaper* outcome at 15% than splitting £28k into drugi prihodi at ~16%. **So the question is whether the £28k can plausibly be classified somewhere lower than 15%, not higher.**
+- **Possible classifications for the £28k**, ranked by likely tax cost:
+  1. **Capital gain** (15% — same as the £18k): if you can argue the entire £46k is redemption consideration. Total tax: 15% × £46k ≈ £6,900.
+  2. **"Drugi prihodi"** (Article 85, ~16% effective after 20% standardized expenses): if it's documented as a separate severance/settlement payment. Total tax: 15% × £18k + ~16% × £28k ≈ £7,180. **Slightly worse than treating the whole thing as capital gain.**
+  3. **Income from independent activity / paušalac top-up**: if argued as compensation tied to the terminated consultancy services. The consultancy was paušalac-taxed, but a £28k lump sum could push you over the 6-million-RSD paušalac revenue cap (RSD ~3.9m at 140 GBP/RSD), with cascading effects (loss of paušalac status, reclassification of the year). **Worst outcome — avoid.**
+  4. **Employment income / zarada**: if recharacterized as employer compensation (you weren't an employee — you invoiced via PR — so this should not apply, but the LLC's "Member" status could be misread). High effective rate (~63% combined with contributions). **Worst outcome — avoid.**
+
+**Tentative recommendation (escalate to advisor):** there's a real case that **treating the entire £46,000 as capital gain on PPDG-3R is the cleanest and lowest-tax position**, because:
+
+- The Settlement Agreement legally characterizes the full amount as consideration for the Redeemed Interest (§II.01).
+- 15% flat rate on the whole £46k beats splitting at 15% + ~16%.
+- It avoids the paušalac-revenue-cap risk entirely.
+- It avoids the question "is the £28k really severance, and how do I document that to the PU?"
+
+**But this is exactly the question to put to a Serbian tax advisor with the Settlement in hand.** If you have side-letter or internal-memo documentation supporting the split, the analysis changes. The remainder of this plan assumes the **conservative single-classification approach**: report the agreed-upon £18,000 redemption portion on PPDG-3R as capital gain, and file a separate PP-OPO for the £28,000 as "drugi prihodi" — with a flag that the all-capital-gain treatment may be cheaper and worth the advisor's attention before Closing.
 
 ---
 
@@ -76,12 +109,12 @@ The taxable event is **transfer of ownership**, not cash receipt (ZPDG Article 7
 
 - **Realization date = Closing Date** (the date you sign + LLC conversion docs are filed in Delaware).
 - **Filing deadline = Closing Date + 30 days.**
-- **Sale price reported = full £46,000 nominal** (no NPV discounting — Serbia has no installment-method analog to U.S. §453; the agreed contractual price is what gets reported).
-- **FX conversion = NBS middle rate on the Closing Date** (one rate, applied to the full £46,000).
+- **Sale price reported = ~£18,000** (the redemption-portion allocation per [§1a](#1a-allocation-of-the-46000-only-18000-is-capital-gains)). No NPV discounting — Serbia has no installment-method analog to U.S. §453; the agreed contractual price for the 96 Units is what gets reported. **If advisor recommends the all-capital-gain approach, report £46,000 instead.**
+- **FX conversion = NBS middle rate on the Closing Date** (one rate, applied to the £18,000 redemption portion).
 
 ### What if installments default later?
 
-If the LLC stops paying (say, after installment 8), you would have already paid 15% on the full £46,000 even though you only received ~£17,600. The remedy is an **izmenjena prijava** (amended PPDG-3R) reducing prodajna cena to amounts actually realized, citing partial non-performance and the §3.41 conditional-release language in the Settlement. Document any default carefully (notices to Company, bank records).
+If the LLC stops paying mid-Plan, you would have already paid tax on the full reported amount even though you received less. The remedy is an **izmenjena prijava** (amended PPDG-3R) reducing prodajna cena to amounts actually realized, citing partial non-performance and the §3.41 conditional-release language in the Settlement. Document any default carefully (notices to Company, bank records). Do the same on PP-OPO for the £28k slice if you filed that separately.
 
 ### Alternative position (don't use without advisor sign-off)
 
@@ -100,8 +133,9 @@ You paid no cash for the 191 Units in October 2024. They were issued at LLC form
 ### Position A — Zero (or near-zero) basis [RECOMMENDED — conservative & defensible]
 
 - Report nabavna cena ≈ 0 (or whatever nominal capital-account figure the LLC Agreement assigns to you, if any — pull the Schedule of Members).
-- Capital gain ≈ full £46,000 in RSD.
-- Tax @ 15% ≈ **£6,900 / ~RSD 970,000** at current FX.
+- Capital gain ≈ £18,000 in RSD (the redemption-allocated portion per §1a).
+- Tax @ 15% ≈ **£2,700 / ~RSD 380,000** at current FX (~140 GBP/RSD).
+- (If advisor pivots to treating the full £46k as capital gain → ~£6,900 / ~RSD 970,000 instead.)
 - **Why**: Article 74 stav 1 reads "cena po kojoj je obveznik stekao." No cash paid + no FMV declared as 2024 service income → the price-paid is 0. Practitioner consensus (Trifunović, Luna Star NS, Aktiva Sistem) defaults here when no contemporaneous FMV report exists.
 - **Audit risk**: low. PU rarely challenges a taxpayer for self-assessing too aggressively.
 
@@ -252,29 +286,30 @@ Belt-and-suspenders:
 
 ### Within 30 days of Closing
 
-9. **File PPDG-3R electronically via [ePorezi](https://eporezi.purs.gov.rs)**:
+9. **File PPDG-3R electronically via [ePorezi](https://eporezi.purs.gov.rs)** (capital-gains slice):
    - Acquisition date: 9 October 2024
    - Acquisition price: per chosen position (RSD)
    - Transfer date: Closing date
-   - Sale price: £46,000 × NBS middle rate on Closing date (RSD)
-   - Attach: Settlement Agreement, LLC Agreement, computation memo (translations attached).
-10. **Wait for the rešenje** (assessment decision from PU). Tax is due **15 days from receipt of the rešenje**.
-11. **Pay tax** via the payment instructions in the rešenje.
+   - Sale price: £18,000 × NBS middle rate on Closing date (RSD) — or £46,000 if advisor confirms all-capital-gain treatment
+   - Attach: Settlement Agreement, LLC Agreement, computation memo with allocation rationale (translations attached).
+10. **File PP-OPO for the £28,000 non-redemption slice** within 30 days of the corresponding receipt(s), unless advisor confirms it should be folded into PPDG-3R as capital gain. Income code per advisor recommendation.
+11. **Wait for the rešenje** (assessment decision from PU). Tax is due **15 days from receipt of the rešenje**.
+12. **Pay tax** via the payment instructions in the rešenje.
 
 ### Each installment (April 2026 → December 2027)
 
-12. **Retain SWIFT confirmation** for every installment. File in a single folder.
-13. **No additional PPDG-3R filings** under Position A (single-realization at Closing).
+13. **Retain SWIFT confirmation** for every installment. File in a single folder.
+14. **No additional PPDG-3R filings** under Position A (single-realization at Closing). PP-OPO for the £28k slice may follow per-receipt depending on advisor's chosen approach.
 
 ### Year-end (each year)
 
-14. **2026 income year**: when 2026 K-1 arrives, review for any partnership distributive share of income separate from the redemption — that may require a separate **PP-OPO** filing for foreign income / dividend-equivalent.
-15. **File Form 1040-NR** for the redemption year (with U.S. advisor).
-16. **Verify CPI/RZS data** matches the PU's valorization computation on the rešenje.
+15. **2026 income year**: when 2026 K-1 arrives, review for any partnership distributive share of income separate from the redemption — that may require a separate **PP-OPO** filing for foreign income / dividend-equivalent.
+16. **File Form 1040-NR** for the redemption year (with U.S. advisor).
+17. **Verify CPI/RZS data** matches the PU's valorization computation on the rešenje.
 
 ### If LLC defaults on installments later
 
-17. File an **izmenjena PPDG-3R** reducing prodajna cena to amounts actually realized, citing §3.41 of the Settlement (conditional release on Payment Plan compliance).
+18. File an **izmenjena PPDG-3R** (and PP-OPO if applicable) reducing reported amounts to what was actually realized, citing §3.41 of the Settlement (conditional release on Payment Plan compliance).
 
 ---
 
@@ -282,12 +317,15 @@ Belt-and-suspenders:
 
 | # | Risk | Owner | Decision needed before |
 |---|---|---|---|
-| 1 | Cost basis position (zero vs. FMV-at-grant) | Serbian tax advisor | Closing |
-| 2 | LLC→Corp conversion: tax-neutral or deemed exchange? | Serbian tax advisor | Closing |
-| 3 | §864(c)(8) ECI quantum + §1446(f) withholding | U.S. tax advisor + Dandilion | Closing |
-| 4 | Historical 1446(a) withholding on 2024/2025 K-1s | Dandilion's accountant | Before 1040-NR filing |
-| 5 | Per-installment vs. single-realization timing | Serbian tax advisor | First filing |
-| 6 | NBS osnov priliva code for installment wires | Serbian bank's compliance | Before first installment |
+| 1 | **£18k capital-gain vs. all-£46k capital-gain classification** (highest leverage) | Serbian tax advisor | Closing |
+| 2 | Documentation supporting the £18k / £28k allocation (side letter, negotiation memo) | You + Dandilion | Closing |
+| 3 | If split classification stands: classification of £28k slice (drugi prihodi vs. severance vs. paušalac top-up) | Serbian tax advisor | Closing |
+| 4 | Cost basis position (zero vs. FMV-at-grant) | Serbian tax advisor | Closing |
+| 5 | LLC→Corp conversion: tax-neutral or deemed exchange? | Serbian tax advisor | Closing |
+| 6 | §864(c)(8) ECI quantum + §1446(f) withholding | U.S. tax advisor + Dandilion | Closing |
+| 7 | Historical 1446(a) withholding on 2024/2025 K-1s | Dandilion's accountant | Before 1040-NR filing |
+| 8 | Per-installment vs. single-realization timing | Serbian tax advisor | First filing |
+| 9 | NBS osnov priliva code for installment wires | Serbian bank's compliance | Before first installment |
 
 ---
 
@@ -295,17 +333,41 @@ Belt-and-suspenders:
 
 Assumptions: zero basis (Position A), NBS GBP/RSD ≈ 140 on Closing day.
 
+### Scenario A — Recommended baseline: split £18k capital gain + £28k drugi prihodi
+
 | Line | Amount |
 |---|---|
-| Sale price (£46,000 × 140) | RSD 6,440,000 |
+| PPDG-3R sale price (£18,000 × 140) | RSD 2,520,000 |
 | Acquisition price (zero, no cash paid) | RSD 0 |
 | CPI valorization | n/a on zero basis |
-| Capital gain (RSD) | **RSD 6,440,000** |
-| Serbian tax @ 15% | **RSD 966,000 ≈ £6,900** |
-| Estimated U.S. tax (§864(c)(8) ECI portion) | $0 to a few thousand USD — needs LLC's analysis |
-| Foreign tax credit (Serbia, capped at 15% of same income) | Up to 15% of ECI gain |
+| Capital gain (RSD) | **RSD 2,520,000** |
+| Serbian capital-gains tax @ 15% | **RSD 378,000 ≈ £2,700** |
+| PP-OPO drugi prihodi base (£28,000 × 140) | RSD 3,920,000 |
+| Standardized expenses 20% | RSD 784,000 |
+| Drugi-prihodi taxable base | RSD 3,136,000 |
+| Drugi-prihodi tax @ 20% | **RSD 627,200 ≈ £4,480** |
+| **Combined Serbian tax** | **~£7,180 / ~RSD 1,005,000** |
 
-Your effective Serbian rate is **15% of nominal £46,000 = £6,900** in the conservative case. Anything paid to the U.S. on ECI portion is creditable in Serbia (subject to cap).
+### Scenario B — All-capital-gain (advisor-validated): full £46k as redemption
+
+| Line | Amount |
+|---|---|
+| PPDG-3R sale price (£46,000 × 140) | RSD 6,440,000 |
+| Acquisition price (zero) | RSD 0 |
+| Capital gain | RSD 6,440,000 |
+| Serbian capital-gains tax @ 15% | **RSD 966,000 ≈ £6,900** |
+| PP-OPO drugi prihodi | n/a |
+| **Combined Serbian tax** | **~£6,900 / ~RSD 966,000** |
+
+**Scenario B saves ~£280** versus Scenario A and is operationally simpler. Whether it's defensible depends on what the Settlement Agreement and any side-letter / negotiation history support. **This is the single highest-leverage advisor question to resolve before Closing.**
+
+### U.S. layer (independent of Serbian classification)
+
+| Line | Amount |
+|---|---|
+| Estimated U.S. tax (§864(c)(8) ECI portion of capital-gains slice) | $0 to a few thousand USD — needs Dandilion's analysis |
+| §1446(f) gross withholding (10% of redemption amount) | ~£1,800–£4,600 depending on which slice the LLC treats as redemption |
+| Foreign tax credit (Serbia, capped at 15% of same income) | Up to 15% of ECI gain |
 
 ---
 
