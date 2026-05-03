@@ -2,6 +2,10 @@
 .obsidian/
 .trash/
 
+# Private notes — local-only, never pushed
+private/
+!private/.gitkeep
+
 # OS
 .DS_Store
 Thumbs.db

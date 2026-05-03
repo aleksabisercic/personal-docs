@@ -11,7 +11,7 @@ Obsidian vault + LLM-friendly knowledge base. Every note has YAML frontmatter fo
 ├── finance/           # Tax, investing, brokerage topics
 ├── learning-notes/    # Mental models, frameworks, study notes
 ├── _templates/        # Note templates (Obsidian Templater compatible)
-├── private/           # Unpublished notes (gitignored from build via ignorePatterns)
+├── private/           # Local-only notes (gitignored — never pushed)
 ├── index.md           # Master Map of Content — link every note here
 ├── quartz.config.ts   # Quartz site config (title, theme, plugins, baseUrl)
 ├── quartz.layout.ts   # Quartz page layout (sidebar, graph, TOC, backlinks)
@@ -43,3 +43,7 @@ Obsidian vault + LLM-friendly knowledge base. Every note has YAML frontmatter fo
 ## Deployment
 
 Pushing to `main` triggers `.github/workflows/deploy-quartz.yml`, which clones Quartz, copies content, and deploys to GitHub Pages. The site config lives in `quartz.config.ts` and `quartz.layout.ts` at the repo root — edit these to change theme, layout, or plugins. Templates and meta-files (CLAUDE.md, README.md) are excluded from the build.
+
+## Obsidian
+
+This repo is an Obsidian vault — open the folder in Obsidian (desktop or mobile). `.obsidian/` is gitignored, so per-device settings stay local. Sensitive files go in `private/` (gitignored, never pushed). On iOS, clone via Working Copy and open the folder as a vault; on Android, use Termux + the Obsidian Git plugin.
