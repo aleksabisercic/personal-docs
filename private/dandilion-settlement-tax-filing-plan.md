@@ -44,6 +44,68 @@ The recital ("indivisible package... good-faith characterization") and §3.02 ("
 
 **Tax**: 15% × £18,000 ≈ **£2,700 / RSD ~378,000**.
 
+### 1.1 PPDG-3R — field by field
+
+Form layout per **Pravilnik 67/2021** (still current in 2026). [Official PDF](https://www.purs.gov.rs/upload/media/2025/2/4/497105/Obrazac-PPDG-3R.pdf) · [PURS uputstvo](https://purs.gov.rs/lat/fizicka-lica/pregled-propisa/uputstva/4579/uputstvo-za-podnosenje-poreske-prijave-za-utvrdjivanje-poreza-na-kapitalne-dobitke-na-obrascu-ppdg--3r.html). Sections 4 (HoV/IF), 5, 6, 7 — leave empty.
+
+**Section 1 — prijava metadata**
+
+| Field | Label | Enter |
+|---|---|---|
+| 1.1 | Vrsta prijave | `1` (prva prijava) |
+| 1.2 | Datum nastanka poreske obaveze | `23.04.2026` |
+| 1.3 | Datum dospelosti | leave (PU fills on rešenje) |
+| 1.4 | Datum i način podnošenja | filing date + `e` (elektronski) |
+
+**Section 2 — taxpayer**
+
+| Field | Label | Enter |
+|---|---|---|
+| 2.1 | Tip obveznika | `1` (rezidentno fizičko lice) |
+| 2.2 | JMBG | **JMBG**, not the paušalac PIB — file as fizičko lice |
+| 2.3 | Ime i prezime | `BISERCIC ALEKSA` |
+| 2.4 | Prebivalište | šifra opštine + adresa |
+| 2.5 / 2.6 | Telefon / e-mail | personal |
+
+**Section 3 — substantive entry (one row)**
+
+By placing the entry in Section 3 (rather than Section 4 for HoV/IF) you are declaring it as **udeo u kapitalu pravnog lica** under Article 72 ZPDG — there is no separate dropdown.
+
+| Field | Label | Enter |
+|---|---|---|
+| 3.1 | Redni broj | `1` |
+| 3.2 | Datum prenosa | `23.04.2026` |
+| 3.3 | Prodajna cena (RSD) | £18,000 × NBS GBP/RSD srednji kurs on 23.04.2026 (single number, no decimals) |
+| 3.4 | Datum sticanja | `09.10.2024` |
+| 3.5 | Nabavna cena | `0` |
+| 3.6 | Kapitalni dobitak | computed: 3.3 − valorized 3.5. With basis 0, equals 3.3. |
+
+**Foreign issuer + zero basis are NOT form fields** — explain both in the **prateći dopis** (cover letter, see §1.2).
+
+CPI valorization (Article 75): enter **raw** nabavna cena. PU computes the index gross-up on the rešenje. Irrelevant on zero basis.
+
+### 1.2 Prateći dopis (cover letter)
+
+PPDG-3R has no field for the foreign issuer or for the basis = 0 rationale. The dopis carries the explanatory weight. Single Serbian-language PDF, signed, attached to the e-prijava. Include:
+
+1. **Transaction**: redemption of 96 Units (50% of holding) of *Dandilion LLC*, Delaware (USA), per Membership Interest Purchase and Settlement Agreement of 23.04.2026. State LLC name, jurisdiction, EIN, Delaware file number, % held pre-redemption.
+2. **FX math**: *"Prodajna cena: GBP 18,000 × srednji kurs NBS GBP/RSD na dan 23.04.2026 = X RSD"* — quote the exact NBS rate and attach the kursna lista printout.
+3. **Single-realization timing**: *"Iako se kupoprodajna cena isplaćuje u 14 mesečnih rata u periodu maj 2026 – jun 2027, kapitalni dobitak je realizovan u celosti na dan zaključenja Agreement-a, 23.04.2026, te se prijavljuje jednokratno."* (Cite ZPDG čl. 72.)
+4. **Basis = 0 rationale**: units issued for services on 09.10.2024 under LLC Agreement; no cash contribution; no FMV deklaracija as 2024 dohodak (LLC was newly formed with no readily ascertainable market value at issuance). Cite **čl. 74 ZPDG** (PU may set nabavna cena at *tržišna vrednost na dan sticanja* if original price not determinable; FMV on 09.10.2024 ≈ 0).
+5. **List of attachments**.
+
+### 1.3 ePorezi mechanics
+
+Path: [eporezi.purs.gov.rs](https://eporezi.purs.gov.rs) → login (kvalifikovani elektronski sertifikat — easiest is **ConsentID** mobile app from Office for IT and eGovernment) → switch to **personal JMBG profile** (not the paušalac PIB profile) → *Pojedinačne poreske prijave* → *PPDG-3R* → *Tekstualni unos* → fill Sections 1–3 → *Prilozi* (upload PDFs, ~5 MB each) → *Provera* → *Potpiši* → *Pošalji*.
+
+After submission: GUID identifikacioni broj prijave (your receipt). **Broj predmeta** follows when inspektor opens the file. **Rešenje** lands in your **eSandučić** (eUprava) and as paper to your prebivalište. Foreign-asset cases typically take **30–90 days** for rešenje (vs. ~15 days for domestic). Pay within 15 days of rešenje.
+
+### 1.4 Likely PU follow-ups (pre-empt by attaching everything)
+
+1. *"Dokažite da nabavna cena = 0"* — covered by LLC Agreement + capital account schedule + dopis explanation.
+2. *"Dostavite sudski overen prevod ugovora"* — guaranteed if not attached up front. Attach sudski tumač for both contracts.
+3. *"Dokažite rezidentnost / nepostojanje stalne poslovne jedinice u Srbiji"* — rare; ignore unless asked.
+
 ---
 
 ## 2. £28k Settlement Amount → Lexiconlogic PR
@@ -109,11 +171,25 @@ Paušalac is taxed on a **presumptive base, not actual revenue** — receiving �
 
 - [ ] Sudski tumač translation: Settlement Agreement
 - [ ] Sudski tumač translation: LLC Agreement of 9 Oct 2024 (Schedule of Members in particular)
-- [ ] Draft computation memo: basis 0, transfer 23 Apr 2026, sale price £18,000 × NBS rate
+- [ ] Print NBS GBP/RSD kursna lista for 23.04.2026 ([nbs.rs by date](https://webappcenter.nbs.rs/ExchangeRateWebApp/ExchangeRate/IndexByDate))
+- [ ] Compute prodajna cena: £18,000 × that rate
+- [ ] Draft **prateći dopis** (cover letter, SR) per §1.2
+- [ ] Confirm ConsentID / e-cert is active and JMBG profile works on ePorezi
+
+### Filing-bundle attachments (PDFs for ePorezi)
+
+- [ ] LLC Agreement (EN original + sudski tumač SR)
+- [ ] Settlement Agreement (EN original + sudski tumač SR)
+- [ ] Capital Account Schedule / Schedule of Members showing $0 contribution
+- [ ] NBS kursna lista printout for 23.04.2026
+- [ ] Prateći dopis (SR)
+- [ ] Bank confirmation of first installment (or expected schedule)
+- [ ] Kopija lične karte
 
 ### File by 23 May
 
-- [ ] **File PPDG-3R via ePorezi** with translations and computation memo attached
+- [ ] **File PPDG-3R via ePorezi** per §1.1 fields + §1.3 mechanics
+- [ ] Save GUID identifikacioni broj prijave (receipt)
 - [ ] Pay tax within 15 days of receiving rešenje
 
 ### Each installment (May 2026 → Jan 2028)
