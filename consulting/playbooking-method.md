@@ -101,4 +101,5 @@ Playbooking is the fastest way out — every playbook closes a slice of the gap.
 ## Related
 
 - [[business-streamlining-playbooks]] — concrete playbook candidates for an AI consulting practice, modeled on Rachel's stack.
+- [[extract-playbook-from-chat]] — drop-in prompt for mining an existing AI chat for the *steps* component.
 - [[architect]] — the simplicity / cost-of-change / blast-radius lens applies when deciding which playbooks to build first.
