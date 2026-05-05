@@ -17,6 +17,7 @@ summary: Master index linking to all topics in this knowledge base.
 ## Learning Notes
 
 - [[architect]] — Three questions a senior architect asks for every decision: simplicity, cost of change, blast radius.
+- [[extract-playbook-from-chat]] — Drop-in prompt to make an AI reverse-engineer a successful chat into a structured, reusable playbook.
 
 ## Consulting
 
