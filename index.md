@@ -18,6 +18,7 @@ summary: Master index linking to all topics in this knowledge base.
 
 - [[architect]] — Three questions a senior architect asks for every decision: simplicity, cost of change, blast radius.
 - [[extract-playbook-from-chat]] — Drop-in prompt to make an AI reverse-engineer a successful chat into a structured, reusable playbook.
+- [[north-korea-department-store]] — Theodore Dalrymple's Pyongyang parable: a fake store, fake products, paid pretend-customers — and why faith in truth is the only way out of the totalitarian lie.
 
 ## Consulting
 
