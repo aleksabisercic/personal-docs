@@ -23,6 +23,7 @@ summary: Master index linking to all topics in this knowledge base.
 ## AI Use Cases
 
 - [[inbox-as-ai-workflow-hub]] — Why the real win from AI inbox tools is triage, not faster replies: cutting decision friction, protecting the day's best hours, and reducing the ambient stress of an unsorted inbox.
+- [[ai-reality-check-time-roi]] — The AI conversation is shifting from capability to proof: time metrics (cycle time, time-to-first-draft, rework rate) are how recurring workflows actually justify AI adoption.
 
 ## Consulting
 

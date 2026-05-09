@@ -98,6 +98,7 @@ When AI helps do that well, the gain is not only a cleaner inbox. It is a calmer
 
 ## Related
 
+- [[ai-reality-check-time-roi]] — the broader frame: inbox triage is one of the clearest places to actually *measure* time ROI from AI (cycle time, handoff latency, time-to-decision).
 - [[business-streamlining-playbooks]] — includes Rachel Woods' inbox-zero playbook as a concrete implementation of the triage layer described here.
 - [[playbooking-method]] — the four-component framework (trigger, inputs, steps, outputs) for turning inbox triage into an AI-runnable process.
 - [[architect]] — simplicity, cost of change, blast radius — useful when designing the triage layer itself.
