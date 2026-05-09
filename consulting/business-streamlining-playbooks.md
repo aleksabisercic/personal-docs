@@ -100,3 +100,4 @@ Threshold rule from Rachel: anything recurring that costs **>4–6 hours/month**
 
 - [[playbooking-method]] — the four-component framework these all sit on top of.
 - [[architect]] — prioritization lens for which playbooks to build first.
+- [[inbox-as-ai-workflow-hub]] — the *why* behind the inbox-zero playbook: triage, not reply speed, is where the real time is reclaimed.
