@@ -1,12 +1,12 @@
 ---
 tags:
   - ai
-  - business
+  - ai-use-cases
   - productivity
   - inbox
   - triage
   - time-management
-category: business
+category: ai-use-cases
 created: 2026-05-09
 language: en
 summary: The real win from AI inbox tools is triage, not faster replies — they cut decision friction, protect the day's best hours, and reduce the ambient stress of an unsorted inbox.

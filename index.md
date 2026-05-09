@@ -20,7 +20,7 @@ summary: Master index linking to all topics in this knowledge base.
 - [[extract-playbook-from-chat]] — Drop-in prompt to make an AI reverse-engineer a successful chat into a structured, reusable playbook.
 - [[north-korea-department-store]] — Theodore Dalrymple's Pyongyang parable: a fake store, fake products, paid pretend-customers — and why faith in truth is the only way out of the totalitarian lie.
 
-## Business
+## AI Use Cases
 
 - [[inbox-as-ai-workflow-hub]] — Why the real win from AI inbox tools is triage, not faster replies: cutting decision friction, protecting the day's best hours, and reducing the ambient stress of an unsorted inbox.
 
