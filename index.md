@@ -13,6 +13,7 @@ summary: Master index linking to all topics in this knowledge base.
 ## Finance
 
 - [[ibkr-serbian-tax-guide]] — Serbian tax obligations for US stock investments via Interactive Brokers. Covers capital gains, dividends, the 10-year exemption, and filing procedures.
+- [[kasko-osiguranje-triglav]] — Sažetak Triglav kasko polise 030000123446: šta osnovni kasko pokriva/ne pokriva, gubitak prava na naknadu, amortizacija delova, 3-dnevni rok za prijavu štete, eskalacija prigovora, struktura premije, kontakti.
 
 ## Learning Notes
 
