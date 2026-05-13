@@ -6,6 +6,12 @@
 private/
 !private/.gitkeep
 
+# Personal audit system — entries stay local; only templates + README are committed
+personal/*
+!personal/README.md
+!personal/99 Templates/
+!personal/99 Templates/**
+
 # OS
 .DS_Store
 Thumbs.db
