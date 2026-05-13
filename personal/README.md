@@ -6,16 +6,16 @@ Adapted from Jordan Peterson's *How to Plan Your Life* (90-minute audit), refram
 
 ```
 personal/
-├── 01 Daily/       — daily notes, one per day (gitignored)
-├── 02 Audits/      — weekly review notes (gitignored)
-├── 03 Dragons/     — one note per active recurring friction (gitignored)
-├── 04 Experiments/ — one note per running experiment (gitignored)
-├── 05 Vision/      — ideal self, ideal week (gitignored)
-├── 06 Past/        — memories sorted out, regret-work (gitignored)
-└── 99 Templates/   — the template files (committed, syncs across devices)
+├── 01 Daily/       — daily notes, one per day
+├── 02 Audits/      — weekly review notes
+├── 03 Dragons/     — one note per active recurring friction
+├── 04 Experiments/ — one note per running experiment
+├── 05 Vision/      — ideal self, ideal week
+├── 06 Past/        — memories sorted out, regret-work
+└── 99 Templates/   — the template files
 ```
 
-Only `99 Templates/` is committed. Everything else is local-only per `.gitignore`, so honest journaling stays off the web.
+All entries sync via git so they're available across devices. The whole `personal/` tree is excluded from the published Quartz site (see `ignorePatterns` in `quartz.config.ts` and the `--exclude` rule in `.github/workflows/deploy-quartz.yml`), so it won't appear on the web — but if this repo is public on GitHub, the files are still readable there.
 
 ## Three loops, nested
 

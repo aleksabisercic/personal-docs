@@ -6,11 +6,8 @@
 private/
 !private/.gitkeep
 
-# Personal audit system — entries stay local; only templates + README are committed
-personal/*
-!personal/README.md
-!personal/99 Templates/
-!personal/99 Templates/**
+# Personal audit system — content syncs via git but is excluded from the Quartz site
+# (see ignorePatterns in quartz.config.ts and deploy-quartz.yml)
 
 # OS
 .DS_Store
