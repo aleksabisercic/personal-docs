@@ -1,8 +1,8 @@
 # Personal Knowledge Wiki
 
-Obsidian vault + LLM-friendly knowledge base. Every note has YAML frontmatter for fast retrieval. Published to web via Quartz (cloned at build time — not checked into this repo).
+Obsidian vault + LLM-friendly knowledge base. Every note has YAML frontmatter for fast retrieval.
 
-**Live site**: `aleksabisercic.github.io/personal-docs`
+Web publishing is currently **paused** — the Quartz/GitHub Pages deploy workflow has been removed. The Quartz config files are kept so it can be re-enabled later (see Deployment below).
 
 ## Structure
 
@@ -13,9 +13,8 @@ Obsidian vault + LLM-friendly knowledge base. Every note has YAML frontmatter fo
 ├── _templates/        # Note templates (Obsidian Templater compatible)
 ├── private/           # Local-only notes (gitignored — never pushed)
 ├── index.md           # Master Map of Content — link every note here
-├── quartz.config.ts   # Quartz site config (title, theme, plugins, baseUrl)
-├── quartz.layout.ts   # Quartz page layout (sidebar, graph, TOC, backlinks)
-└── .github/workflows/deploy-quartz.yml  # Builds + deploys to GitHub Pages on push to main
+├── quartz.config.ts   # Quartz site config (title, theme, plugins, baseUrl) — retained, deploy paused
+└── quartz.layout.ts   # Quartz page layout (sidebar, graph, TOC, backlinks) — retained, deploy paused
 ```
 
 ## Conventions
@@ -42,7 +41,7 @@ Obsidian vault + LLM-friendly knowledge base. Every note has YAML frontmatter fo
 
 ## Deployment
 
-Pushing to `main` triggers `.github/workflows/deploy-quartz.yml`, which clones Quartz, copies content, and deploys to GitHub Pages. The site config lives in `quartz.config.ts` and `quartz.layout.ts` at the repo root — edit these to change theme, layout, or plugins. Templates and meta-files (CLAUDE.md, README.md) are excluded from the build.
+**Currently disabled.** The GitHub Pages deploy workflow (`.github/workflows/deploy-quartz.yml`) has been removed, so pushing to `main` no longer builds or publishes anything. The Quartz site config (`quartz.config.ts`, `quartz.layout.ts`) is retained at the repo root. To re-enable publishing, restore a workflow that clones Quartz, copies content (excluding templates and meta-files like CLAUDE.md / README.md), applies these config files, and deploys to GitHub Pages.
 
 ## Obsidian
 
