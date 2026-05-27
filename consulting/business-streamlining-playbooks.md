@@ -100,3 +100,4 @@ Threshold rule from Rachel: anything recurring that costs **>4–6 hours/month**
 
 - [[playbooking-method]] — the four-component framework these all sit on top of.
 - [[architect]] — prioritization lens for which playbooks to build first.
+- [[opusclip-video-repurposing-guide]] — the tool behind a content-repurposing playbook: long video → many short social clips.
