@@ -17,9 +17,13 @@ summary: Master index linking to all topics in this knowledge base.
 ## Learning Notes
 
 - [[architect]] — Three questions a senior architect asks for every decision: simplicity, cost of change, blast radius.
-- [[extract-playbook-from-chat]] — Drop-in prompt to make an AI reverse-engineer a successful chat into a structured, reusable playbook.
 - [[north-korea-department-store]] — Theodore Dalrymple's Pyongyang parable: a fake store, fake products, paid pretend-customers — and why faith in truth is the only way out of the totalitarian lie.
 - [[peterson-life-planning-workbook]] — Fill-in workbook from Peterson's "How to Plan Your Life" lectures: hell-vision, presumption of innocence, heaven-vision, schedule.
+
+## Prompts
+
+- [[extract-playbook-from-chat]] — Drop-in prompt to make an AI reverse-engineer a successful chat into a structured, reusable playbook.
+- [[long-horizon-task-prompt]] — Drop-in prompt that tells an agentic AI to keep working until done, split big work into sub-agents, self-verify end to end, and report changes/verification/risks.
 
 ## Consulting
 
