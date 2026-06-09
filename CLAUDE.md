@@ -10,6 +10,9 @@ Web publishing is currently **paused** — the Quartz/GitHub Pages deploy workfl
 /
 ├── finance/           # Tax, investing, brokerage topics
 ├── learning-notes/    # Mental models, frameworks, study notes
+├── consulting/        # AI consulting playbooks and guides
+├── prompts/           # Reusable drop-in prompts for AI tools
+├── personal/          # Personal notes
 ├── _templates/        # Note templates (Obsidian Templater compatible)
 ├── private/           # Local-only notes (gitignored — never pushed)
 ├── index.md           # Master Map of Content — link every note here
