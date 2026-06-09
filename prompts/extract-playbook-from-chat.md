@@ -4,7 +4,7 @@ tags:
   - prompting
   - playbooks
   - workflow
-category: learning-notes
+category: prompts
 created: 2026-05-05
 language: en
 summary: After a successful AI session, paste a single prompt that asks the model to reverse-engineer the conversation into a structured, reusable playbook you can rerun or hand to a custom assistant.
@@ -77,6 +77,7 @@ Important:
 
 ## Related
 
+- [[long-horizon-task-prompt]] — companion prompt: frames a job as a long-horizon, self-verifying task; pair it with this one to capture the run afterward.
 - [[playbooking-method]] — Rachel Woods' four-component frame (trigger, inputs, steps, outputs); this prompt is how you mine a chat for the *steps* component.
 - [[project-planning-playbook]] — example of what a fully-built playbook looks like end-to-end.
 - [[business-streamlining-playbooks]] — catalog of recurring tasks worth turning into playbooks.
