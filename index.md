@@ -23,6 +23,7 @@ summary: Master index linking to all topics in this knowledge base.
 ## Prompts
 
 - [[extract-playbook-from-chat]] — Drop-in prompt to make an AI reverse-engineer a successful chat into a structured, reusable playbook.
+- [[goal-first-prompt]] — Drop-in prompt that makes an agentic AI define its own /goal, success criteria, and boundaries (plus a sub-goal per helper agent) and get approval before executing.
 - [[long-horizon-task-prompt]] — Drop-in prompt that tells an agentic AI to keep working until done, split big work into sub-agents, self-verify end to end, and report changes/verification/risks.
 
 ## Consulting

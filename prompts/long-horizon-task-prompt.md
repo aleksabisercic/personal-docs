@@ -60,5 +60,6 @@ At the end, give me:
 
 ## Related
 
+- [[goal-first-prompt]] — companion prompt: define and approve the `/goal` before kicking off the long-horizon run.
 - [[extract-playbook-from-chat]] — companion prompt: once a long-horizon run lands a good result, mine the chat into a reusable playbook.
 - [[architect]] — the "blast radius" question pairs well with the *what risks remain* closeout.
