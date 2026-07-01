@@ -62,4 +62,5 @@ At the end, give me:
 
 - [[goal-first-prompt]] — companion prompt: define and approve the `/goal` before kicking off the long-horizon run.
 - [[extract-playbook-from-chat]] — companion prompt: once a long-horizon run lands a good result, mine the chat into a reusable playbook.
+- [[manual-e2e-skill]] — the hands-on skill that operationalizes this prompt's "self-verify end to end" step against a real running app.
 - [[architect]] — the "blast radius" question pairs well with the *what risks remain* closeout.
